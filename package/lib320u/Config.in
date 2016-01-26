@@ -1,0 +1,5 @@
+config BR2_PACKAGE_LIB320U
+	bool "lib320u"
+	help
+	  sierra wireless aircard 320 library.
+

@@ -1,0 +1,5 @@
+config BR2_PACKAGE_UBLXATCMDTEST
+	bool "ublxatcmdtest"
+	select BR2_PACKAGE_LIB320U
+	help
+	  sierra wireless aircard 320 test application.

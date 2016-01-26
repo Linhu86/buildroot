@@ -1,0 +1,5 @@
+[7m>>> ublxafserver 1.0 Extracting[27m
+[7m>>> ublxafserver 1.0 Patching[27m
+[7m>>> ublxafserver 1.0 Configuring[27m
+[7m>>> ublxafserver 1.0 Building[27m
+/data/local/lyin/workspace/buildroot/output/host/usr/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  -I/data/local/lyin/workspace/buildroot/output/target/usr/include -I/data/local/lyin/workspace/buildroot/package/ublxatserver/inc  -o /data/local/lyin/workspace/buildroot/package/ublxatserver/ublxatserver  /data/local/lyin/workspace/buildroot/package/ublxatserver/src/ublx_at_server.c /data/local/lyin/workspace/buildroot/package/ublxatserver/src/ublx_at_api.c  -lrt -l320u -lubox -lblobmsg_json -lubus

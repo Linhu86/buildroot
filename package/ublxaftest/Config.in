@@ -1,0 +1,5 @@
+config BR2_PACKAGE_UBLXAFTEST
+	bool "ublxaftest"
+	depends on BR2_PACKAGE_UBUS
+	help
+	  ublx af test application

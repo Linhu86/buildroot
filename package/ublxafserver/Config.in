@@ -1,0 +1,7 @@
+config BR2_PACKAGE_UBLXAFSERVER
+	bool "ublxafserver"
+	depends on BR2_PACKAGE_LIB320U
+	depends on BR2_PACKAGE_UBUS
+	help
+	  ublx af server application.
+

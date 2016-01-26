@@ -1,0 +1,6 @@
+config BR2_PACKAGE_HELLO
+	bool "hello"
+	depends on BR2_PACKAGE_LTTNG_LIBUST
+	help
+	  lttng hello example.
+

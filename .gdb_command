@@ -1,0 +1,8 @@
+cd /data/local/lyin/workspace/buildroot
+dir /data/local/lyin/workspace/buildroot/package/ublxatcmdtest
+set sysroot /data/local/lyin/workspace/buildroot
+set solib-absolute-prefix /data/local/lyin/workspace/buildroot/output/staging
+set solib-search-path output/staging
+file output/build/ublxatcmdtest-1.0/ublxatcmdtest
+target remote 10.0.2.39:5039
+
